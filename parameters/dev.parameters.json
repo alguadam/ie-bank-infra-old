@@ -23,7 +23,7 @@
         "azureMonitorName": {
             "value": "aguadamillas-am"
         },
-        "appInsights": {
+        "appInsightsName": {
             "value": "aguadamillas-ai"
         },
         "location": {

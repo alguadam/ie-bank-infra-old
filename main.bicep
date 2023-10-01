@@ -25,7 +25,7 @@ param appServiceAppName string = 'ie-bank-dev'
 @maxLength(24)
 param appServiceAPIAppName string = 'ie-bank-api-dev'
 @sys.description('The name of the Azure Monitor workspace')
-param azureMonitorName
+param azureMonitorName string
 @sys.description('The name of the Application Insights')
 param appInsightsName string
 @sys.description('The Azure location where the resources will be deployed')

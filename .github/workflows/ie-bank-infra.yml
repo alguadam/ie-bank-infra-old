@@ -1,9 +1,11 @@
 name: ie-bank-infra
 
 on:
+  workflow_dispatch:
   push:
       paths:
         - 'parameters/**'
+        - '.github/**'
         - 'modules/**'
         - '!scripts/**'
 

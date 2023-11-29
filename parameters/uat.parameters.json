@@ -20,8 +20,14 @@
         "appServiceAppName": {
             "value": "aguadamillas-fe-uat"
         },
+        "azureMonitorName": {
+            "value": "aguadamillas-am"
+        },
+        "appInsightsName": {
+            "value": "aguadamillas-ai"
+        },
         "location": {
-            "value": "North Europe"
+            "value": "UK West"
         }
     }
 }
